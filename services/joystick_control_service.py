@@ -7,9 +7,9 @@ from services.base_service import BaseService
 from utils import get_logger, config
 from communication_manager import CommunicationManager
 
-DEADZONE = config['Joystick']['Deadzone']
+DEADZONE = config['Joystick']['Deadzone_Cutoff']
 UPDATE_INTERVAL = config['Joystick']['Command_Refresh_Rate']
-SENSITIVITY = config['Joystick']['Deadzone_Cutoff']
+SENSITIVITY = config['Joystick']['Sensitivity']
 
 def clamp(val, min_val=0.1, max_val=1.0):
     return max(min_val, min(max_val, val))
