@@ -1,0 +1,22 @@
+CurrentMode: 0
+ModeMap:
+  0: Idle
+  1: Manual
+  2: Gesture
+Gesture:
+  To_Command:
+    "Closed_Fist": "FORWARD"
+    "Open_Palm": "BACKWARD"
+    "Thumb_Down": "TURN_LEFT"
+    "Thumb_Up": "TURN_RIGHT"
+    "Victory": "SPIN"
+    "Pointing_Up": "STOP"
+    "ILoveYou": "STOP"
+  Sensitivity:
+    Rotational: 0.5
+    Translational: 0.8
+Joystick:
+  Sensitivity: 0.5
+  Command_Refresh_Rate: 0.1
+  Deadzone_Cutoff: 0.1
+  
